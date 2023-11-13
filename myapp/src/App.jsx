@@ -117,7 +117,10 @@ const headingText = `${taskList.length} ${tasksNoun} remaining`;
       {taskList}
 
       </ul>
-       <footer style={{textAlign: center; fontSize: 17px; color: #000; marginTop: 5px;}}>Copyright &copy; 2023 Upright</footer>
+       <footer style={{ textAlign: 'center', fontSize: '17px', color: '#000', marginTop: '5px' }}>
+  Copyright &copy; 2023 Upright
+</footer>
+
     </div>
   );
 }
